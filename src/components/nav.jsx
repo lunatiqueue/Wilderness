@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 export const Nav = () => {
   return (
-    <nav>
+    <nav className="navigation">
       <ul className="navigation_list">
         <li className="navigation_item">
           <NavLink to={'/'}>
