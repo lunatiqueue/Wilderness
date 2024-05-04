@@ -1,16 +1,21 @@
+import { lazy } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import { Layout } from './layout';
+
+const Home = lazy(() => import('./pages/home'));
+const Forests = lazy(() => import('./pages/forests'));
+const Mountains = lazy(() => import('./pages/mountains'));
+const Lakes = lazy(() => import('./pages/lakes'));
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="/forests" element={<Forests />} />
+        <Route path="/mountains" element={<Mountains />} />
+        <Route path="/lakes" element={<Lakes />} />
+      </Route>
+    </Routes>
   );
 };
