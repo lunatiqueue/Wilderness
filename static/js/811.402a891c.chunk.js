@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkWilderness=self.webpackChunkWilderness||[]).push([[811],{811:function(e,n,s){s.r(n);s(18);var u=s(184);n.default=function(){return(0,u.jsx)("div",{className:"page",children:"Mountains Page"})}},18:function(){}}]);
-//# sourceMappingURL=811.402a891c.chunk.js.map
