@@ -1,15 +1,13 @@
-import { useEffect, useState } from 'react';
 import './pages.css';
+import { Gallery } from 'components/elements/gallery';
+import { data } from 'data/data';
 
 const Forests = () => {
-  const [show, setShow] = useState(false);
-
-  useEffect(() => {
-    const timeout = setTimeout(setShow(true), 1000);
-    return clearTimeout(timeout);
-  }, []);
-
-  return <div className={`page ${show ? 'show' : ''}`}>Forests Page</div>;
+  return (
+    <div className="page">
+      <Gallery topic={data.forests} />
+    </div>
+  );
 };
 
 export default Forests;
