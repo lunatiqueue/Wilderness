@@ -18,9 +18,11 @@ export const Gallery = ({ topic }) => {
         >
           <div className="gallery_title">{el.title}</div>
           <div className="gallery_description">{el.about}</div>
-          {el.imgs.map(img => (
-            <a href={img}></a>
-          ))}
+          {/* {el.imgs.map(img => (
+            <a href={img} style={{ visibility: 'hidden' }}>
+              _
+            </a>
+          ))} */}
         </section>
       ))}
     </div>
