@@ -1,13 +1,27 @@
 {
   "files": {
-    "main.css": "/Wilderness/static/css/main.7acaea2f.css",
-    "main.js": "/Wilderness/static/js/main.07d3183d.js",
+    "main.css": "/Wilderness/static/css/main.aa4f3690.css",
+    "main.js": "/Wilderness/static/js/main.c124c13d.js",
+    "static/js/462.e15d51cc.chunk.js": "/Wilderness/static/js/462.e15d51cc.chunk.js",
+    "static/css/868.57222624.chunk.css": "/Wilderness/static/css/868.57222624.chunk.css",
+    "static/js/868.ffad8bcc.chunk.js": "/Wilderness/static/js/868.ffad8bcc.chunk.js",
+    "static/css/811.57222624.chunk.css": "/Wilderness/static/css/811.57222624.chunk.css",
+    "static/js/811.32ce9841.chunk.js": "/Wilderness/static/js/811.32ce9841.chunk.js",
+    "static/css/926.57222624.chunk.css": "/Wilderness/static/css/926.57222624.chunk.css",
+    "static/js/926.3b5d128b.chunk.js": "/Wilderness/static/js/926.3b5d128b.chunk.js",
     "index.html": "/Wilderness/index.html",
-    "main.7acaea2f.css.map": "/Wilderness/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Wilderness/static/js/main.07d3183d.js.map"
+    "main.aa4f3690.css.map": "/Wilderness/static/css/main.aa4f3690.css.map",
+    "main.c124c13d.js.map": "/Wilderness/static/js/main.c124c13d.js.map",
+    "462.e15d51cc.chunk.js.map": "/Wilderness/static/js/462.e15d51cc.chunk.js.map",
+    "868.57222624.chunk.css.map": "/Wilderness/static/css/868.57222624.chunk.css.map",
+    "868.ffad8bcc.chunk.js.map": "/Wilderness/static/js/868.ffad8bcc.chunk.js.map",
+    "811.57222624.chunk.css.map": "/Wilderness/static/css/811.57222624.chunk.css.map",
+    "811.32ce9841.chunk.js.map": "/Wilderness/static/js/811.32ce9841.chunk.js.map",
+    "926.57222624.chunk.css.map": "/Wilderness/static/css/926.57222624.chunk.css.map",
+    "926.3b5d128b.chunk.js.map": "/Wilderness/static/js/926.3b5d128b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.aa4f3690.css",
+    "static/js/main.c124c13d.js"
   ]
 }
