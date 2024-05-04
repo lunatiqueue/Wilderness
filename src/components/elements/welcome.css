@@ -34,21 +34,14 @@
 }
 .layers__base {
   background-image: url(../../img/layer-base.jpg);
-  background-repeat: 'no-repeat';
-  background-size: 'cover';
   transform: translate3d(0, calc(var(--scrollTop) / 1.6), 0);
   z-index: 0;
 }
 .layers__middle {
-  background-image: url();
-  background-repeat: 'no-repeat';
-  background-size: 'cover';
   transform: translate3d(0, calc(var(--scrollTop) / 2.5), 0);
 }
 .layers__front {
   background-image: url(../../img/layer-front.png);
-  background-repeat: 'no-repeat';
-  background-size: 'cover';
   transform: translate3d(0, calc(var(--scrollTop) / 5.7), 0);
 }
 .layer__header {
