@@ -38,6 +38,7 @@
   z-index: 0;
 }
 .layers__middle {
+  background-image: url(../../img/layer-middle.png);
   transform: translate3d(0, calc(var(--scrollTop) / 2.5), 0);
 }
 .layers__front {

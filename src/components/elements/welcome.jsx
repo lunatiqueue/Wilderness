@@ -26,7 +26,6 @@ export const Welcome = () => {
               expedita sapiente cum rerum, ut dicta laboriosam!
             </p>
           </div>
-          <div className="copy">© Footer</div>
         </article>
       </div>
     </div>
