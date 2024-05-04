@@ -5,14 +5,14 @@ import { Nav } from './nav';
 export const Layout = () => {
   return (
     <>
-      <header>
-        <Nav />
-      </header>
       <main>
         <Suspense fallback={null}>
           <Outlet />
         </Suspense>
       </main>
+      <footer>
+        <Nav />
+      </footer>
     </>
   );
 };
