@@ -11,7 +11,7 @@ export const Gallery = ({ topic }) => {
       {topic.map((el, idx) => (
         <section
           key={idx}
-          className={`gallery `}
+          className="gallery"
           style={{
             backgroundImage: `url(${el.imgs[0]})`,
           }}
