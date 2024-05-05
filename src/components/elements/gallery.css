@@ -32,6 +32,7 @@
 
 .gallery_title {
   color: #fff;
+  text-shadow: 2px 2px 2px #000;
   font-weight: 600;
   font-size: 42px;
   position: absolute;
@@ -48,6 +49,7 @@ section:hover .gallery_title {
 
 .gallery_description {
   color: #fff;
+  text-shadow: 1px 1px 1px #000;
   backdrop-filter: blur(1px);
   font-weight: 600;
   font-size: 20px;
@@ -79,7 +81,7 @@ section:hover .gallery_description {
   }
 
   .gallery_description {
-    font-size: 14px;
+    display: none;
     transition: none;
   }
 }
