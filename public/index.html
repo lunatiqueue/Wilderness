@@ -42,11 +42,11 @@
           `${this.scrollY}px`
         ); // Update method
       });
-      // gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-      // ScrollSmoother.create({
-      //   wrapper: '.wrapper',
-      //   content: '.content',
-      // });
+      gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+      ScrollSmoother.create({
+        wrapper: '.wrapper',
+        content: '.content',
+      });
     </script>
 
     <!-- Start Single Page Apps for GitHub Pages -->
