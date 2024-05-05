@@ -38,6 +38,26 @@ const rockyImagesList = rockyImages
   .keys()
   .map(image => rockyImages(image));
 
+  const peytoImages = require.context('../img/peyto', true);
+  const peytoImagesList = peytoImages
+  .keys()
+  .map(image => peytoImages(image));
+
+  const synevyrImages = require.context('../img/synevyr', true);
+const synevyrImagesList = synevyrImages
+  .keys()
+  .map(image => synevyrImages(image));
+
+  const morskieImages = require.context('../img/morskie', true);
+const morskieImagesList = morskieImages
+  .keys()
+  .map(image => morskieImages(image));
+
+  const craterImages = require.context('../img/crater', true);
+const craterImagesList = craterImages
+  .keys()
+  .map(image => craterImages(image));
+
 const forests = [
   { 
     imgs: schwarzwaldImagesList,
@@ -99,26 +119,26 @@ const mountains = [
 
 const lakes = [
   {
-    imgs: [],
+    imgs: peytoImagesList,
     title: 'Peyto Lake',
     about: 'Peyto Lake is a glacier-fed lake located in Banff National Park, Alberta, Canada. Its stunning turquoise color comes from rock flour carried into the lake by meltwater from the surrounding glaciers. Peyto Lake is a popular tourist destination and offers breathtaking views of the Canadian Rockies. \n Depth: 90 meters',
     location: 'Canada',
   },
   {
-    imgs: [],
-    title: 'Synevir',
-    about: 'Synevir is a picturesque lake nestled in the heart of the Carpathian Mountains in Ukraine. Surrounded by dense forests and towering peaks, Synevir is renowned for its crystal-clear waters and tranquil ambiance. Legend has it that Synevir is home to a mythical creature known as the Synevir Lake Mermaid, adding to its allure and mystique. \n Depth: 22 meters',
+    imgs: synevyrImagesList,
+    title: 'Synevyr',
+    about: 'Synevyr is a picturesque lake nestled in the heart of the Carpathian Mountains in Ukraine. Surrounded by dense forests and towering peaks, Synevir is renowned for its crystal-clear waters and tranquil ambiance. Legend has it that Synevir is home to a mythical creature known as the Synevir Lake Mermaid, adding to its allure and mystique. \n Depth: 22 meters',
     location: 'Ukraine',
   },
   {
-    imgs: [],
+    imgs: morskieImagesList,
     title: 'Morskie Oko',
     about: 'Morskie Oko, or the Eye of the Sea, is the largest and most famous lake in the Tatra Mountains of Poland. Nestled amidst breathtaking alpine scenery, Morskie Oko is renowned for its emerald-green waters and pristine surroundings. The lake is a popular destination for hikers and nature enthusiasts, offering stunning views of the surrounding peaks. \n Depth: 50 meters',
     location: 'Poland',
   },
   {
-    imgs: [], 
-    title: 'THE CRATER LAKE',
+    imgs: craterImagesList, 
+    title: 'The Crater Lake',
     about: 'Crater Lake, located in Oregon, USA, is renowned for its deep blue color and crystal-clear waters. Formed over 7,700 years ago following the collapse of a volcanic caldera, Crater Lake is the deepest lake in the United States and one of the clearest lakes in the world. Surrounded by sheer cliffs and old-growth forests, Crater Lake offers visitors a glimpse into the dramatic forces of nature. \n Depth: 594 meters',
     location: 'USA',
   },
