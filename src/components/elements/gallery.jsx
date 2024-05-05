@@ -10,6 +10,10 @@ export const Gallery = ({ topic }) => {
 
   useEffect(() => setFirstLoad(true), []);
 
+  const slides = topic[sectionIdx].imgs.map(img => {
+    return { src: img };
+  });
+
   return (
     <div className={`gallery_container ${firstLoad ? 'show' : ''}`}>
       {topic.map((el, idx) => (
@@ -28,13 +32,7 @@ export const Gallery = ({ topic }) => {
           <div className="gallery_description">{el.about}</div>
         </section>
       ))}
-      <Lightbox
-        open={open}
-        close={() => setOpen(false)}
-        slides={topic[sectionIdx].imgs.map(img => {
-          return { src: img };
-        })}
-      />
+      <Lightbox open={open} close={() => setOpen(false)} slides={slides} />
     </div>
   );
 };
