@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkWilderness=self.webpackChunkWilderness||[]).push([[527],{7868:function(e,s,n){n.r(s);n(6018);var r=n(4728),a=n(2200),c=n(184);s.default=function(){return(0,c.jsx)("div",{className:"page",children:(0,c.jsx)(r.r,{topic:a.a.forests})})}}}]);
+//# sourceMappingURL=527.6cbfa90d.chunk.js.map
