@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkWilderness=self.webpackChunkWilderness||[]).push([[640],{811:function(e,s,n){n.r(s);n(6018);var a=n(4728),i=n(2200),r=n(184);s.default=function(){return(0,r.jsx)("div",{className:"page",children:(0,r.jsx)(a.r,{topic:i.a.mountains})})}}}]);
-//# sourceMappingURL=640.3301da20.chunk.js.map
