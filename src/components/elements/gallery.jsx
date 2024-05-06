@@ -8,7 +8,13 @@ export const Gallery = ({ topic }) => {
   const [open, setOpen] = useState(false);
   const [sectionIdx, setSectionIdx] = useState(0);
 
-  useEffect(() => setFirstLoad(true), []);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setFirstLoad(true);
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   const slides = topic[sectionIdx].imgs.map(img => {
     return { src: img };
