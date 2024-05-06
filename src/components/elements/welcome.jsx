@@ -7,8 +7,8 @@ export const Welcome = () => {
         <header className="main-header">
           <div className="layers">
             <div className="layer__header">
-              <div className="layers__caption">Welcome to Parallax</div>
-              <div className="layers__title">Fairy Forest</div>
+              <div className="layers__caption">Welcome to Wilderness</div>
+              <div className="layers__title">Lets see the world</div>
             </div>
             <div className="layer layers__base"></div>
             <div className="layer layers__middle"></div>
@@ -18,12 +18,9 @@ export const Welcome = () => {
 
         <article className="main-article">
           <div className="main-article__content">
-            <h2 className="main-article__header">To be continued</h2>
+            <h2 className="main-article__header">Click below</h2>
             <p className="main-article__paragraph">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
-              error provident dignissimos facere. Repellendus tempore autem qui!
-              Quia magnam tempora esse id necessitatibus corrupti mollitia
-              expedita sapiente cum rerum, ut dicta laboriosam!
+            Discover the finest wilderness destinations in Europe and North America! Click on each intriguing location to explore further and experience something truly special. From majestic mountain ranges to serene forests, embark on a journey of discovery and immerse yourself in the beauty of these natural wonders.
             </p>
           </div>
         </article>
