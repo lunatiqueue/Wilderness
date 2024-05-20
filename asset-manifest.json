@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Wilderness/static/css/main.05e84973.css",
-    "main.js": "/Wilderness/static/js/main.9d1abe4e.js",
-    "static/css/227.bde571b5.chunk.css": "/Wilderness/static/css/227.bde571b5.chunk.css",
+    "main.js": "/Wilderness/static/js/main.69f9bde6.js",
+    "static/css/227.9bcef084.chunk.css": "/Wilderness/static/css/227.9bcef084.chunk.css",
     "static/js/227.bf7bd61e.chunk.js": "/Wilderness/static/js/227.bf7bd61e.chunk.js",
     "static/css/864.3eed03e7.chunk.css": "/Wilderness/static/css/864.3eed03e7.chunk.css",
     "static/js/864.dd2e6b6d.chunk.js": "/Wilderness/static/js/864.dd2e6b6d.chunk.js",
@@ -17,11 +17,11 @@
     "static/media/Albula_Alps.jpg": "/Wilderness/static/media/Albula_Alps.54e7de83e293ea19f057.jpg",
     "static/media/peyto-lake-gmb_banffnp_parks-canada.jpg": "/Wilderness/static/media/peyto-lake-gmb_banffnp_parks-canada.897e3d32e75ce433e4f1.jpg",
     "static/media/Peyto_Lake_June_2018.jpg": "/Wilderness/static/media/Peyto_Lake_June_2018.d3eec732985a9e5c85ff.jpg",
+    "static/media/cloud.png": "/Wilderness/static/media/cloud.e8217798177ffdbf5901.png",
     "static/media/layer-base.jpg": "/Wilderness/static/media/layer-base.d2f83d8455781de4d80f.jpg",
     "static/media/rocky-mountain-national-park-aglow_763256ea-f0ae-5102-jpg": "/Wilderness/static/media/rocky-mountain-national-park-aglow_763256ea-f0ae-5102-065b089a4c479241.c57de78cfe80d1e1f049.jpg",
     "static/media/layer-bottom.jpg": "/Wilderness/static/media/layer-bottom.0f3fa37af785a5a6055c.jpg",
     "static/media/bison-1931967_1920.jpg": "/Wilderness/static/media/bison-1931967_1920.187ddb1fd4cf343df935.jpg",
-    "static/media/test.png": "/Wilderness/static/media/test.053aa26fbf0b050a6378.png",
     "static/media/synevir.jpg": "/Wilderness/static/media/synevir.a53484dddada4e0d3d46.jpg",
     "static/media/bialowieza-5410986_1920.jpg": "/Wilderness/static/media/bialowieza-5410986_1920.2f11144d13202d9d79bf.jpg",
     "static/media/forest-1072828_1920.jpg": "/Wilderness/static/media/forest-1072828_1920.26806383422bd1c11afa.jpg",
@@ -78,8 +78,8 @@
     "static/media/southern-rocky-mountains-1024x683.jpg": "/Wilderness/static/media/southern-rocky-mountains-1024x683.ec3acc713bafe1fdd816.jpg",
     "index.html": "/Wilderness/index.html",
     "main.05e84973.css.map": "/Wilderness/static/css/main.05e84973.css.map",
-    "main.9d1abe4e.js.map": "/Wilderness/static/js/main.9d1abe4e.js.map",
-    "227.bde571b5.chunk.css.map": "/Wilderness/static/css/227.bde571b5.chunk.css.map",
+    "main.69f9bde6.js.map": "/Wilderness/static/js/main.69f9bde6.js.map",
+    "227.9bcef084.chunk.css.map": "/Wilderness/static/css/227.9bcef084.chunk.css.map",
     "227.bf7bd61e.chunk.js.map": "/Wilderness/static/js/227.bf7bd61e.chunk.js.map",
     "864.3eed03e7.chunk.css.map": "/Wilderness/static/css/864.3eed03e7.chunk.css.map",
     "864.dd2e6b6d.chunk.js.map": "/Wilderness/static/js/864.dd2e6b6d.chunk.js.map",
@@ -91,6 +91,6 @@
   },
   "entrypoints": [
     "static/css/main.05e84973.css",
-    "static/js/main.9d1abe4e.js"
+    "static/js/main.69f9bde6.js"
   ]
 }
