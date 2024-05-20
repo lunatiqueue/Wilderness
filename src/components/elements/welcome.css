@@ -7,10 +7,11 @@
   z-index: 100;
   width: 100%;
   height: calc(var(--index) * 10);
-  background-image: url(../../img/test.png);
+  background-image: url(../../img/cloud.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  ;
   bottom: calc(var(--index) * -4.5);
 }
 .layers {
